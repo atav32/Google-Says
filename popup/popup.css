@@ -1,0 +1,37 @@
+body {
+  -webkit-user-select: none;
+}
+
+.play-text {
+  display: block;
+  font-size: 26pt;
+}
+
+.button-text {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#play {
+  width: 240px;
+  margin: auto;
+  padding: 15px;
+  background-color: #6699EE;
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+  border-radius: 50px;
+
+}
+
+#play:hover {
+  cursor: pointer;
+  background-color: #75A3Ef;
+}
+
+#play:active {
+  background-color: #5B89D6;
+}
